@@ -1,0 +1,13 @@
+We will use the version of PyTorch that comes pre-installed in Google Colab
+to ensure perfect compatibility with its CUDA drivers. Do not add torch here.
+Pinning other core AI/ML libraries for stability and compatibility.
+These versions are known to work well together with recent PyTorch versions.
+transformers==4.41.2
+peft==0.10.0
+accelerate==0.30.1
+bitsandbytes==0.43.1
+General application libraries that are less prone to conflicts.
+flask
+numpy
+nltk
+pyngrok

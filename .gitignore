@@ -1,0 +1,19 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE / Editor specific
+.vscode/
+.idea/
+
+# Environment folders (never commit these)
+venv/
+env/
+.env
+
+# Large model files - These should be uploaded to Colab manually
+FineTuning_phi3/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
